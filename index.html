@@ -14,19 +14,19 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-md fixed-top d-flex" id="app-navbar" style="height: 80px;padding: 36px;">
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top d-flex" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" id="app-navbar" style="padding: 36px;height: 80px;">
         <div class="container-fluid"><a class="navbar-brand" href="#"><i class="icon ion-ios-infinite" id="brand-logo"></i></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
-                class="collapse navbar-collapse text-white" id="navcol-1" style="padding: 17px;">
+                class="collapse navbar-collapse text-right text-white" id="navcol-1" style="padding: 17px;">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link active text-white" href="#">Currículo</a></li>
                     <li class="nav-item"><a class="nav-link active text-white" href="https://github.com/Di-santos" target="_blank">Github</a></li>
-                    <li class="nav-item"><a class="nav-link active text-white" href="https://www.instagram.com/codev.w/" target="_blank">Portfólio</a></li>
+                    <li class="nav-item"><a class="nav-link active text-white" href="https://www.instagram.com/diogosilveira.me/" target="_blank">Portfólio</a></li>
                 </ul>
         </div>
         </div>
     </nav>
-    <div class="d-xl-flex justify-content-xl-center" id="Welcome" style="height: 105vh;background: linear-gradient(120deg, #00e4d0, #5983e8);">
+    <div class="d-xl-flex justify-content-xl-center" id="Welcome" style="background: linear-gradient(120deg, #00e4d0, #5983e8);height: 100vh;">
         <div class="col d-xl-flex justify-content-xl-center align-items-xl-center" style="color: rgb(255,255,255);font-family: Lato, sans-serif;">
             <div class="intro" style="font-size: 20px;">
                 <h2 data-aos="fade-right" data-aos-duration="1000" style="font-size: 38px;margin: 0px;margin-bottom: 55px;margin-top: -30px;"><strong>Olá, meu nome é Diogo!</strong></h2>
@@ -60,7 +60,7 @@
             </div>
             <div class="col-sm-6 item" data-aos="fade-right" data-aos-duration="700" data-aos-delay="300" data-aos-once="true" id="Passagem-2">
                 <div class="row">
-                    <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/elo.png"></a></div>
+                    <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/elo.png" style="margin-bottom: 25px;"></a></div>
                     <div class="col" style="padding-bottom: 120px;">
                         <h3 class="name">Ensino Médio Integral&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (2017 - 2019)</h3>
                         <p class="description">Cursando Sistemas de Informação</p>
@@ -69,7 +69,7 @@
             </div>
         </div>
     </div>
-    <div class="features-blue" style="height: 702px;">
+    <div class="features-blue">
         <div class="container">
             <div data-aos="fade-right" data-aos-delay="500" data-aos-once="true" class="intro">
                 <h2 class="text-center">Competências</h2>
@@ -81,6 +81,10 @@
                     <p class="description" style="color: rgba(255,255,255,0.85);">Conhecimentos básicos em frameworks front end, como React e React Native.<br><br>Conhecimentos estruturados sobre back end, com node.js, ES6/CJS,&nbsp; e API 's&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>Programação de
                         Bots (Discord, Telegram, Twitter) e hospedagem dos mesmos</p>
                 </div>
+                <div class="col-sm-6 col-md-4 item"><i class="icon ion-social-python icon"></i>
+                    <h3 class="name">Python</h3>
+                    <p class="description" style="color: rgba(255,255,255,0.85);">Análise de dados com Pandas e Matplot<br><br>Machine Learning e Modelagem<br><br>Automação de processos em geral</p>
+                </div>
                 <div class="col-sm-6 col-md-4 item"><i class="fa fa-th-large icon"></i>
                     <h3 class="name">Wordpress e BStudio</h3>
                     <p class="description" style="color: rgba(255,255,255,0.85);">Freelancer desde 2020, comecei com design e edição de vídeos.<br><br>Posteriormente, desenvolvi apreço por UI/UX e, em 15/02/2021 vendi meu primeiro site<br><br></p>
@@ -88,10 +92,6 @@
                 <div class="col-sm-6 col-md-4 item"><i class="fa fa-diamond icon"></i>
                     <h3 class="name">Soft Skills</h3>
                     <p class="description" style="color: rgba(255,255,255,0.85);"><br>Ao longo da faculdade e dos trabalhos como freelancer, desenvolvi ótimas conexões e aprendi a trabalhar e me comunicar com diversos grupos e pessoas<br><br></p>
-                </div>
-                <div class="col-sm-6 col-md-4 item"><i class="icon ion-social-python icon"></i>
-                    <h3 class="name">Python</h3>
-                    <p class="description" style="color: rgba(255,255,255,0.85);">Análise de dados com Pandas e Matplot<br><br>Machine Learning e Modelagem<br><br>Automação de processos em geral</p>
                 </div>
                 <div class="col-sm-6 col-md-4 item"><i class="fa fa-commenting icon"></i>
                     <h3 class="name">Linguagens</h3>
@@ -106,7 +106,7 @@
     </div>
     <div class="footer-basic" style="background: rgb(27,26,26);color: rgb(235,235,235);padding: 28px;">
         <footer>
-            <div class="d-xl-flex justify-content-xl-center align-items-xl-center social"><a href="#"><i class="icon ion-social-linkedin"></i></a><a href="https://github.com/Di-santos" target="_blank"><i class="icon ion-social-github"></i></a><a href="https://www.instagram.com/codev.w/" target="_blank"><i class="icon ion-social-instagram-outline"></i></a></div>
+            <div class="d-xl-flex justify-content-xl-center align-items-xl-center social"><a href="#"><i class="icon ion-social-linkedin"></i></a><a href="https://github.com/Di-santos" target="_blank"><i class="icon ion-social-github"></i></a><a href="https://www.instagram.com/diogosilveira.me/" target="_blank"><i class="icon ion-social-instagram-outline"></i></a></div>
             <p
                 class="copyright" style="color: rgb(205,203,203);">Contato: <strong><span style="text-decoration: underline;">diosilveira07@gmail.com</span></strong> | Diogo Silveira dos Santos © 2020</p>
         </footer>
